@@ -124,7 +124,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
 
-#### Q17. **\_** validates the integrity of data files.
+#### Q17. **\_\_\_\_\_** validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -283,7 +283,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [x] packet sniffer
 - [ ] IPS
 
-#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like **\_**.
+#### Q36. SQL injection inserts a code fragment that makes a database statement universally true, like **\_**.
 
 - [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
@@ -711,7 +711,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] an Instruction Detection and Prevention System (IDPS) appliance
-- [ ] a web application firewall (WAF)
+- [x] a web application firewall (WAF)
 - [ ] a stateful packet inspection firewall
 
 #### Q93. Which phase of the incident response process happens immediately following identification?
@@ -761,20 +761,68 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] attack
 - [ ] information
 - [ ] threat
-- [ ] event
+- [x] event
 
-#### Q100. You need to implement a solution to protect internet-facing applications from common attacks like XSS, CSRF, and SQL injection. Which option is best suited to the task?
-
-- [ ] a stateful packet inspection firewall
-- [ ] a web application firewall (WAF)
-- [ ] an Intrusion Detection and Prevention System (IDPS) appliance
-- [ ] Security Information Event Management (SIEM)
-
-#### Q101. You are responsible for forensic investigations in your organization.You have been tasked with investigating a compromised virtual application server. Becase a revenue generating application runs on the server, the server needs to be returned to service as quickly as possible.
+#### Q100. You are responsible for forensic investigations in your organization.You have been tasked with investigating a compromised virtual application server. Becase a revenue generating application runs on the server, the server needs to be returned to service as quickly as possible.
 
 What is the next step you should take to best fulfill your responsibilities and meet the needs of the business?
 
 - [ ] Restore the server from backup immediately.
 - [ ] Take the server offline until your investigation is complete.
-- [ ] Take a snapshot of the compromised virtual server for your investigation.
+- [x] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
+
+#### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _ site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _.
+
+- [x] 192.168.0.1/24
+- [ ] 192.168.0.3/24
+- [ ] 10.10.0.0/24
+- [ ] 192.168.0.2/24
+
+#### Q102. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
+
+- [ ] EC-Council
+- [ ] ISACAISACA
+- [ ] NISTNIST
+- [x] OWASP
+
+[Explanation:](https://www.imperva.com/learn/application-security/application-security/)
+
+#### Q103. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
+
+- [ ] adopting a "best-in-suite" approach to securityadopting a "best-in-suite" approach to security
+- [x] adopting a "trust but verify" approach to securityadopting a "trust but verify" approach to security
+- [ ] adopting a "best-of-breed" approach to securityadopting a "best-of-breed" approach to security
+- [ ] adopting a "defense-in-depth" approach to security
+
+[Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
+
+#### Q104. **\_\_\_\_\_** attacks can execute the code injected by attackers as part of user inputs.
+
+- [ ] Ping of death
+- [x] Buffer overflow
+- [ ] Distributed Denial of Service
+- [ ] Denial of Service
+
+#### Q105. Which activity is _not_ part of risk assessment?
+
+- [ ] identifying and valuing assets
+- [ ] analyzing risks by criticality and cost
+- [x] discontiniuing activities that introduce risk
+- [ ] identifying threats and analyzing vulnerabilities
+
+#### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: `./../../../var/secrets` What type of attack was most likely attempted against the application?
+
+- [ ] brute force
+- [ ] session hijacking
+- [ ] cross-site scripting
+- [x] directory traversal
+
+#### Q107. Which quadrant should be the focus of risk management?
+
+![Which quadrant should be the focus of risk management?](Q107-risk-quadrant.jpg)
+
+- [x] 2
+- [ ] 1
+- [ ] 3
+- [ ] 4

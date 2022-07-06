@@ -553,7 +553,7 @@ car#year {
 - [ ] <make> is required, <model> is required, <year> is required, and <price> is optional.
 - [x] <make> is required, <model> is optional, <year> is required, and <price> is optional.
 
-### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
+#### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
 
 ```xml
 1 <superheroes>
@@ -573,9 +573,21 @@ car#year {
 
 [Reference best practices for xml attributes](https://www.geeksforgeeks.org/xml-attributes/)
 
-### Q43. What does the Document Type Definition (DTD) define?
+#### Q43. What does the Document Type Definition (DTD) define?
 
 - [ ] structure
 - [ ] entities
 - [x] elements
 - [ ] attributes
+    
+#### Q44. In the XML DOM,what is the setAttribute an example of?
+- [ ] node
+- [ ] function
+- [x] method
+- [ ] property
+
+#### Q45. What is not one of the advantages of the XML DOM?
+- [ ] The XML DOM is language and platform independent.
+- [ ] The XML DOM is modifiable and dynamic.
+- [ ] The XML DOM is easy to navigate around to find specific information.
+- [x] The XML DOM is efficient with memory and operation speed.
